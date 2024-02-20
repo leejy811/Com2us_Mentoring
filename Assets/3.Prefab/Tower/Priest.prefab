@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 413427072359688911}
   - component: {fileID: 4530915376284656753}
   - component: {fileID: 3013455778307204420}
-  - component: {fileID: 4813539674104790672}
   - component: {fileID: 6432447870153720847}
-  - component: {fileID: 3233486864517970037}
+  - component: {fileID: 161937623381344121}
+  - component: {fileID: 1787042759688561019}
   m_Layer: 7
-  m_Name: Archer
+  m_Name: Priest
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 814321953
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: -731946428, guid: 4db4cedcfa0380c429acd77fc47bbbaf, type: 3}
+  m_Sprite: {fileID: 692327896, guid: 98bfec4e4e119eb4ab6486d603741c05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,7 +106,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.125, y: 2.125}
+    oldSize: {x: 1.75, y: 2.25}
     newSize: {x: 1.0625, y: 1.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -115,26 +115,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
---- !u!114 &4813539674104790672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5221182930454428838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b593ec5c3159f0e4db51c508337d9d68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
-  level: 0
-  damage: 3
-  attackSpeed: 1
-  attackRange: 5
-  radiusSprite: {fileID: 7946972468933973046}
-  bulletOffset: {x: 1, y: 0, z: 0}
-  bulletPrefab: {fileID: 3544143188996726030, guid: 39a51f5a8e5b3034a99711cc99411330, type: 3}
 --- !u!114 &6432447870153720847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c48eff6a86f1504cbed10c9c68b1edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &3233486864517970037
+--- !u!95 &161937623381344121
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -157,7 +137,7 @@ Animator:
   m_GameObject: {fileID: 5221182930454428838}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 810fcdd223f177240b233b9cbb62cbf1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 24f0d2c0e2da8e5429002a725afde494, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -167,6 +147,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1787042759688561019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5221182930454428838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3de74aaaa437474d824c69563df0c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  level: 1
+  damage: 3
+  attackSpeed: 0
+  attackRange: 5
+  radiusSprite: {fileID: 7946972468933973046}
+  buffLevel: 0
+  addedDamage: 3
 --- !u!1 &8989869689818268447
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3013455778307204420}
   - component: {fileID: 4813539674104790672}
   - component: {fileID: 6432447870153720847}
-  - component: {fileID: 3233486864517970037}
+  - component: {fileID: 161937623381344121}
   m_Layer: 7
-  m_Name: Archer
+  m_Name: Wizard
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 814321953
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: -731946428, guid: 4db4cedcfa0380c429acd77fc47bbbaf, type: 3}
+  m_Sprite: {fileID: 260148861, guid: 1142e71a41f31de4d8562b7b07bf71ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,7 +106,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.125, y: 2.125}
+    oldSize: {x: 1.75, y: 2.125}
     newSize: {x: 1.0625, y: 1.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c48eff6a86f1504cbed10c9c68b1edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &3233486864517970037
+--- !u!95 &161937623381344121
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ Animator:
   m_GameObject: {fileID: 5221182930454428838}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 810fcdd223f177240b233b9cbb62cbf1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6d4fae8ef7818cb44874c4f891eaf0a8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

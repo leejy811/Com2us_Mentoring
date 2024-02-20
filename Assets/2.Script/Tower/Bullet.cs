@@ -22,6 +22,7 @@ public class Bullet : MonoBehaviour
 
     public void Init(Transform tar, int damage)
     {
+        this.damage = damage;
         target = tar;
         Vector3 attckDir = (target.position - transform.position).normalized;
         transform.rotation = Quaternion.FromToRotation(Vector3.up, attckDir);

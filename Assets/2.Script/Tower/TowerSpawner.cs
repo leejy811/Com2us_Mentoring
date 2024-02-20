@@ -7,7 +7,7 @@ using UnityEngine.Tilemaps;
 
 public class TowerSpawner : MonoBehaviour
 {
-    bool isPickTower = false;
+    public bool isPickTower = false;
 
     GameObject curPickTower;
     List<GameObject> towerList;
@@ -33,6 +33,7 @@ public class TowerSpawner : MonoBehaviour
         if (isPickTower) return;
         isPickTower = true;
 
+        OffPickAllTower();
         curPickTower = Instantiate(towerPrefabs[index]);
         curPickTower.GetComponent<Tower>().SetRangeRadius();
     }
@@ -43,4 +44,12 @@ public class TowerSpawner : MonoBehaviour
 
         curPickTower.GetComponentsInChildren<SpriteRenderer>()[1].color = color;
     }
+
+    public void OffPickAllTower()
+    {
+        foreach(GameObject tower in towerList)
+        {
+            tower.GetComponent<Tower>().PickTower(false);
+        }
+    } 
 }

@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum TowerType { Attack, Buff }
+
 public class Tower : MonoBehaviour
 {
+    [SerializeField] protected TowerType type;
     [SerializeField] protected int level;
     [SerializeField] protected int damage;
     [SerializeField] protected float attackSpeed;
@@ -12,12 +15,15 @@ public class Tower : MonoBehaviour
     protected Transform target;
 
     [SerializeField] protected SpriteRenderer radiusSprite;
-    protected bool isPick;
     protected bool isSpawn;
+
+    //버프 관련 변수
+    public int buffLevel = 0;
+    public int addedDamage = 0;
 
     private void FixedUpdate()
     {
-        if (!isSpawn) return;
+        if (!isSpawn || type == TowerType.Buff) return;
 
         target = GetTarget();
     }
@@ -30,7 +36,9 @@ public class Tower : MonoBehaviour
 
         radiusSprite.gameObject.SetActive(false);
         gameObject.GetComponent<FollowMouse>().enabled = false;
-        StartCoroutine("AttackTarget");
+
+        if (type == TowerType.Attack)
+            StartCoroutine("AttackTarget");
     }
 
     public void SetRangeRadius()
@@ -64,7 +72,6 @@ public class Tower : MonoBehaviour
             float curDistance = Vector3.Distance(playerPosition, targetPosition);
 
             bool checkDistance = curDistance < distance;
-            Debug.Log(curDistance);
             if (checkDistance)
             {
                 if (curDistance > attackRange)
@@ -82,9 +89,8 @@ public class Tower : MonoBehaviour
         transform.localScale = attackDir.x > 0 ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
     }
 
-    public void PickTower()
+    public void PickTower(bool isPick)
     {
-        isPick = !isPick;
         radiusSprite.gameObject.SetActive(isPick);
         SetRangeRadius();
     }

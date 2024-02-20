@@ -1900,6 +1900,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerPrefabs:
   - {fileID: 5221182930454428838, guid: be093150fd681144e89b46e8b8a6c267, type: 3}
+  - {fileID: 5221182930454428838, guid: ee199c8768648c6459c3e858a7b4938f, type: 3}
+  - {fileID: 5221182930454428838, guid: cd566b4b1ddef5443b4bc025f0686e73, type: 3}
+  - {fileID: 5221182930454428838, guid: f81125eac7462e4499d2707945de7b1b, type: 3}
 --- !u!4 &259340984
 Transform:
   m_ObjectHideFlags: 0
@@ -13561,7 +13564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Buy Archer Tower
+  m_text: Buy Knight Tower
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

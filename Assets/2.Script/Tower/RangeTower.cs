@@ -12,6 +12,6 @@ public class RangeTower : Tower
 
         base.OnAttack();
         GameObject bullet = Instantiate(bulletPrefab, transform.position + bulletOffset, Quaternion.identity);
-        bullet.GetComponent<Bullet>().Init(target, damage);
+        bullet.GetComponent<Bullet>().Init(target, damage + addedDamage);
     }
 }
