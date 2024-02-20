@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Road
   - BackGround
+  - Obstacle
+  - Bullet
+  - Enemy
+  - Tower
   layers:
   - Default
   - TransparentFX
@@ -13,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -42,6 +46,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Road
+    uniqueID: 1512029281
+    locked: 0
+  - name: Tower
+    uniqueID: 814321953
+    locked: 0
+  - name: Weapon
+    uniqueID: 2931166105
     locked: 0
   - name: Effect
     uniqueID: 3462308649
