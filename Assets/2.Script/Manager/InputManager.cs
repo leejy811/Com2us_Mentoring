@@ -31,7 +31,6 @@ public class InputManager : MonoBehaviour
             }
             else if (hit.collider.tag == "Tower")
             {
-                Debug.Log("Tower");
                 hit.transform.GetComponent<Tower>().PickTower();
             }
         }

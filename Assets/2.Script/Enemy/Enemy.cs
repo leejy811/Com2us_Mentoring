@@ -15,10 +15,12 @@ public class Enemy : MonoBehaviour
     private int curIndex = 0;
     private Movement movement;
     private PlayerInfo player;
+    private Animator animator;
 
     public void Init(Transform[] points)
     {
         movement = GetComponent<Movement>();
+        animator = GetComponent<Animator>();
         player = GameManager.instance.player;
         wayPoints = points;
         curHealth = maxHealth;
@@ -70,7 +72,8 @@ public class Enemy : MonoBehaviour
 
     void OnDie()
     {
+        animator.SetBool("isDie", true);
         player.GetCoin(coin);
-        Destroy(gameObject);
+        Destroy(gameObject, 0.8f);
     }
 }

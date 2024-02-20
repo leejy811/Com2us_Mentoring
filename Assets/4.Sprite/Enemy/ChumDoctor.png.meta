@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f0c7baaa8e1263847a781f72a64b4fb7
+guid: 0430f058a0bcea748a3f267b21479888
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,75 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpriteSheet_0
+      name: ChumDoctor_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 840
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24fbc28be17d77a43ba8475ab6809998
-      internalID: 526814704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 89
+        x: 24
         y: 840
         width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0d325c4b8dd0344a09c38743d3a031
-      internalID: -1551417919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 776
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b9f5f8adb17e0346ae6158ba73ffc75
-      internalID: 5915086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_3
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 776
-        width: 17
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,81 +143,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eebab73ddd71214c9736807090128cb
-      internalID: 295216512
+      spriteID: c59cf1911dab3f64a809b28d61ecf52d
+      internalID: -2043957087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_4
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 712
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 664fbddb5c1c3a34c976656febbdada8
-      internalID: -257407127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_5
+      name: ChumDoctor_1
       rect:
         serializedVersion: 2
         x: 89
-        y: 712
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0904eb00c09b3ea4790f704f3eaea1c6
-      internalID: -1263198820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_6
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 712
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f42b5d5d06865d841a87f8f6ee9518ef
-      internalID: -649491328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 712
+        y: 840
         width: 15
         height: 16
       alignment: 0
@@ -290,103 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa5a00853d04a7d469df5df60a12683b
-      internalID: -1193027954
+      spriteID: af0fe1763972af4489a85049e9177899
+      internalID: 225296431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_8
+      name: ChumDoctor_2
       rect:
         serializedVersion: 2
-        x: 26
-        y: 648
+        x: 24
+        y: 776
         width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d78a4baef9fb03a48a0627e7e5374d71
-      internalID: 1855082416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_9
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 648
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0fca677cd43f944387ec587fd15a76b
-      internalID: 967930590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_10
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 648
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07e466d6c789a2f4bb00fe1fb02ad5bb
-      internalID: 760792880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_11
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 648
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e8c957f58b6f494b992de18bef8ac0c
-      internalID: -1537948699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_12
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 584
-        width: 13
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -395,62 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c125999dd8a4d51469faa01a824733ec
-      internalID: 1816464023
+      spriteID: e31fd6719bb9e2b4e96519d3250e69ba
+      internalID: 1194892923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_13
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 584
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86cd05973509594469f6938d4c29292b
-      internalID: 111872241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_14
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 520
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abbca104a542ecb47a41d2d301fce76b
-      internalID: 722738035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_15
+      name: ChumDoctor_3
       rect:
         serializedVersion: 2
         x: 88
-        y: 520
-        width: 20
-        height: 18
+        y: 775
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,81 +206,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 421297669ddbe774d9cdbb1dc48cc7ac
-      internalID: 928108648
+      spriteID: 101fa3c94ce273a4895623bae96e3425
+      internalID: 1610319575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_16
+      name: ChumDoctor_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 712
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff2dd4346d962846be23b3ac4fdf57c
+      internalID: -866220538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 712
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8663da2d825fe409eedf38e50e750e
+      internalID: -1570958678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_6
       rect:
         serializedVersion: 2
         x: 152
-        y: 520
-        width: 20
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 379659641699a4044892ae4b6daa988f
-      internalID: 919806756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_17
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 456
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b19c14f2512f5a843806b70e3cabf87e
-      internalID: -451344754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_18
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 456
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56d11accee10d7c45ad530cd960dfac9
-      internalID: -106180217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_19
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 456
+        y: 712
         width: 16
         height: 16
       alignment: 0
@@ -542,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d45a8eea122370f48934aa59f8d1f7ea
-      internalID: 712288767
+      spriteID: 97748a2eb3cb26245a17b30f4f1e68cf
+      internalID: -895284429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_20
+      name: ChumDoctor_7
       rect:
         serializedVersion: 2
-        x: 25
-        y: 392
-        width: 14
-        height: 17
+        x: 216
+        y: 712
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,20 +290,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92eda39a2f57822449f422a7e0485f42
-      internalID: 1599556845
+      spriteID: bc1502e4f27bdd146958b3d034d31cf9
+      internalID: 1979129405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_21
+      name: ChumDoctor_8
       rect:
         serializedVersion: 2
-        x: 89
-        y: 392
+        x: 25
+        y: 647
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92795bbc3c062f54b97376e217803176
+      internalID: 771140080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 646
         width: 18
-        height: 17
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,397 +332,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f801a6a67e74244b0a634ec94ef6d4
-      internalID: -774710370
+      spriteID: 358cf7e741a07f1468ab798ed65c1eee
+      internalID: -1546959456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_22
+      name: ChumDoctor_10
       rect:
         serializedVersion: 2
-        x: 153
-        y: 392
-        width: 20
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6abfd8a608518104684efffedf3553a6
-      internalID: -405791059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_23
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 395
-        width: 11
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b82976c34ab8264a90e68f834d87561
-      internalID: 167967338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_24
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 328
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5d159e8f96d1a04e8f2794926094f54
-      internalID: 1840423624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_25
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 328
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b8e6e47b664ab84ebffcbecb50ec6fe
-      internalID: -2141781155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_26
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 328
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fd7fcf21b4602d4d86fd4c235653884
-      internalID: -582928492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_27
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 328
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b7e2c8dacde21749aba366b8a8c1731
-      internalID: -1777351318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_28
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 263
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6cb98fba30ab43469ebf4a8285e54f7
-      internalID: 333114255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_29
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 263
+        x: 157
+        y: 647
         width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b1d4bb37ae982842bb26dcc16e07f25
-      internalID: -596578903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_30
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 263
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f9e69ca28e90e2448e90c7c82530ac5
-      internalID: 1465519744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_31
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 263
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd1e474520900e24d8ee2868e5ae5649
-      internalID: 904830478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_32
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 200
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e99add2ca16bde14e8afa29971faf005
-      internalID: 109668461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_33
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 200
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4894489528e211a4cba0974bd0eb5893
-      internalID: 1835249943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_34
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 136
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fcbcb1dcfe283b4ab113ade7e222b83
-      internalID: 461052176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_35
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 136
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2e3d394c0a587a49ab27ffb4747f173
-      internalID: 1948080625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_36
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 72
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e3a646a011171b429ace9b27c10785d
-      internalID: -280546552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_37
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 72
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c8ff07e2c164c643a7209fbae971a59
-      internalID: 700849284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_38
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 8
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ec2d78db2bd3e64a8e85c2b7e9a35b4
-      internalID: -175579546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_39
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 8
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 522a0bf1ef1937c4f8ec25b99c3a0a87
-      internalID: 981955237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_40
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 8
-        width: 15
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -983,8 +353,617 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1721d2b3d090dc943a4efd63a545439a
-      internalID: -576128659
+      spriteID: f77322ebbbca86a47bc106ca3933d5f9
+      internalID: -957390464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 646
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a89cd6f225b7364e973d343dfeaaca0
+      internalID: 147247906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 584
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a7bfdb52c5a1142adc2112704c997e
+      internalID: -616145377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 584
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f046c480252f8a459e4d9548947d210
+      internalID: 607964051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 519
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9f4780fb913aa428655eb27e140bc4
+      internalID: -1827391553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 520
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc654dced120a7442b75e4d1b8ab478a
+      internalID: 1624104883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 520
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684bc0d2efbc0d7459a6faeeb9ab724a
+      internalID: 1770631610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 456
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f28c066e10e41348b328b54474cf8af
+      internalID: 1527351901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 455
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001367bc408a874f91523cd17f54454
+      internalID: 591628495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 455
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689c3dedfc7c9c6429489cf3c2f1b4d4
+      internalID: 123253567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 392
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911d1f206591264ab18f71498c6d025
+      internalID: -12008583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 392
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5796773cb3f24418d6d04f709c8fae
+      internalID: 1533262197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 392
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2596fd7458c9d254eb5a4a595e0b559d
+      internalID: -1099403172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 328
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9bd27188950af42b3469eb445fef11
+      internalID: 1628711661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 328
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4980e3739bb5fb94081ba768bc8b9b7e
+      internalID: 1544271630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 328
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4af6fe292808084b9ffa257d71f48c0
+      internalID: 873258264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 327
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40186044af75cd541a9fd12ae87b339b
+      internalID: -574441243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b811ac1217ddf448b1efd039899fe1d
+      internalID: 1544347579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 264
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea9b9e658aef944e98110a5eb0a2b6a
+      internalID: -669786522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_29
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 264
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d600c47237812b24ebcdad50577891a8
+      internalID: 698679401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_30
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 264
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71a89bbca821ed448c19e94bdc109d5
+      internalID: 682778837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94e5fc62bf44ce40b7545dee0d900d1
+      internalID: 1624900382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_32
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024b08865784830469d98cb227dbcfa7
+      internalID: 178440169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4445ae8b76db184d80d0588e1992472
+      internalID: -544724315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 136
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58547608bff6dbb498a8484b64e672ee
+      internalID: 1950460281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e4624389a329a479f2c52f78132069
+      internalID: -167592854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 71
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89080b36c4f72f840ab78d6e596b4a33
+      internalID: 1216956001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07498b4ffff81f499d4f48f3acfa5c8
+      internalID: 2131137311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 7
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266f34e18b4ae684daa8ffa1855442c1
+      internalID: 533598547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChumDoctor_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 6
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8064c86ac7336f146b18206db6d557ee
+      internalID: 1910151265
       vertices: []
       indices: 
       edges: []
@@ -1000,47 +979,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpriteSheet_0: 526814704
-      SpriteSheet_1: -1551417919
-      SpriteSheet_10: 760792880
-      SpriteSheet_11: -1537948699
-      SpriteSheet_12: 1816464023
-      SpriteSheet_13: 111872241
-      SpriteSheet_14: 722738035
-      SpriteSheet_15: 928108648
-      SpriteSheet_16: 919806756
-      SpriteSheet_17: -451344754
-      SpriteSheet_18: -106180217
-      SpriteSheet_19: 712288767
-      SpriteSheet_2: 5915086
-      SpriteSheet_20: 1599556845
-      SpriteSheet_21: -774710370
-      SpriteSheet_22: -405791059
-      SpriteSheet_23: 167967338
-      SpriteSheet_24: 1840423624
-      SpriteSheet_25: -2141781155
-      SpriteSheet_26: -582928492
-      SpriteSheet_27: -1777351318
-      SpriteSheet_28: 333114255
-      SpriteSheet_29: -596578903
-      SpriteSheet_3: 295216512
-      SpriteSheet_30: 1465519744
-      SpriteSheet_31: 904830478
-      SpriteSheet_32: 109668461
-      SpriteSheet_33: 1835249943
-      SpriteSheet_34: 461052176
-      SpriteSheet_35: 1948080625
-      SpriteSheet_36: -280546552
-      SpriteSheet_37: 700849284
-      SpriteSheet_38: -175579546
-      SpriteSheet_39: 981955237
-      SpriteSheet_4: -257407127
-      SpriteSheet_40: -576128659
-      SpriteSheet_5: -1263198820
-      SpriteSheet_6: -649491328
-      SpriteSheet_7: -1193027954
-      SpriteSheet_8: 1855082416
-      SpriteSheet_9: 967930590
+      ChumDoctor_0: -2043957087
+      ChumDoctor_1: 225296431
+      ChumDoctor_10: -957390464
+      ChumDoctor_11: 147247906
+      ChumDoctor_12: -616145377
+      ChumDoctor_13: 607964051
+      ChumDoctor_14: -1827391553
+      ChumDoctor_15: 1624104883
+      ChumDoctor_16: 1770631610
+      ChumDoctor_17: 1527351901
+      ChumDoctor_18: 591628495
+      ChumDoctor_19: 123253567
+      ChumDoctor_2: 1194892923
+      ChumDoctor_20: -12008583
+      ChumDoctor_21: 1533262197
+      ChumDoctor_22: -1099403172
+      ChumDoctor_23: 1628711661
+      ChumDoctor_24: 1544271630
+      ChumDoctor_25: 873258264
+      ChumDoctor_26: -574441243
+      ChumDoctor_27: 1544347579
+      ChumDoctor_28: -669786522
+      ChumDoctor_29: 698679401
+      ChumDoctor_3: 1610319575
+      ChumDoctor_30: 682778837
+      ChumDoctor_31: 1624900382
+      ChumDoctor_32: 178440169
+      ChumDoctor_33: -544724315
+      ChumDoctor_34: 1950460281
+      ChumDoctor_35: -167592854
+      ChumDoctor_36: 1216956001
+      ChumDoctor_37: 2131137311
+      ChumDoctor_38: 533598547
+      ChumDoctor_39: 1910151265
+      ChumDoctor_4: -866220538
+      ChumDoctor_5: -1570958678
+      ChumDoctor_6: -895284429
+      ChumDoctor_7: 1979129405
+      ChumDoctor_8: 771140080
+      ChumDoctor_9: -1546959456
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

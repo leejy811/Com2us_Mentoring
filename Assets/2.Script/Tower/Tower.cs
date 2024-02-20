@@ -13,25 +13,49 @@ public class Tower : MonoBehaviour
 
     [SerializeField] protected SpriteRenderer radiusSprite;
     protected bool isPick;
+    protected bool isSpawn;
 
-    private void Start()
+    private void FixedUpdate()
     {
+        if (!isSpawn) return;
+
+        target = GetTarget();
+    }
+
+    public void Init()
+    {
+        isSpawn = true;
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        gameObject.GetComponent<Animator>().enabled = true;
+
+        radiusSprite.gameObject.SetActive(false);
+        gameObject.GetComponent<FollowMouse>().enabled = false;
         StartCoroutine("AttackTarget");
+    }
+
+    public void SetRangeRadius()
+    {
+        radiusSprite.transform.localScale = Vector3.one * attackRange * 0.4f;
     }
 
     protected IEnumerator AttackTarget()
     {
         while (true)
         {
-            GetTarget();
+            if (target == null)
+            {
+                yield return new WaitForFixedUpdate();
+                continue;
+            }
             OnAttack();
             yield return new WaitForSeconds(attackSpeed);
         }
     }
 
-    protected void GetTarget()
+    protected Transform GetTarget()
     {
         Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, attackRange, LayerMask.GetMask("Enemy"));
+        Transform resultTransform = null;
         float distance = attackRange;
         foreach (Collider2D target in targets)
         {
@@ -40,15 +64,16 @@ public class Tower : MonoBehaviour
             float curDistance = Vector3.Distance(playerPosition, targetPosition);
 
             bool checkDistance = curDistance < distance;
-
+            Debug.Log(curDistance);
             if (checkDistance)
             {
                 if (curDistance > attackRange)
                     continue;
                 distance = curDistance;
-                this.target = target.transform;
+                resultTransform = target.transform;
             }
         }
+        return resultTransform;
     }
 
     protected virtual void OnAttack()
@@ -61,6 +86,6 @@ public class Tower : MonoBehaviour
     {
         isPick = !isPick;
         radiusSprite.gameObject.SetActive(isPick);
-        radiusSprite.transform.localScale = Vector3.one * attackRange;
+        SetRangeRadius();
     }
 }

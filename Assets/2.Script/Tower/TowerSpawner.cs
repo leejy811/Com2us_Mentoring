@@ -9,11 +9,9 @@ public class TowerSpawner : MonoBehaviour
 {
     bool isPickTower = false;
 
-    int curPickIndex;
     GameObject curPickTower;
     List<GameObject> towerList;
     [SerializeField] GameObject[] towerPrefabs;
-    [SerializeField] GameObject[] towerIconPrefabs;
 
     void Start()
     {
@@ -23,9 +21,11 @@ public class TowerSpawner : MonoBehaviour
     public void SpawnTower(Transform spawnPos)
     {
         if (!isPickTower) return;
-        towerList.Add(Instantiate(towerPrefabs[curPickIndex], spawnPos.position, Quaternion.identity));
+        towerList.Add(curPickTower);
+        curPickTower.transform.position = spawnPos.position;
+        curPickTower.GetComponent<Tower>().Init();
         isPickTower = false;
-        Destroy(curPickTower);
+        curPickTower = null;
     }
 
     public void ChangePickState(int index)
@@ -33,8 +33,8 @@ public class TowerSpawner : MonoBehaviour
         if (isPickTower) return;
         isPickTower = true;
 
-        curPickTower = Instantiate(towerIconPrefabs[index]);
-        curPickIndex = index;
+        curPickTower = Instantiate(towerPrefabs[index]);
+        curPickTower.GetComponent<Tower>().SetRangeRadius();
     }
 
     public void ChangeTowerColor(Color color)
