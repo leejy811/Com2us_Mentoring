@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wayPoints: []
   isEnemyLive: 0
-  maxHealth: 10000000
+  maxHealth: 10
   curHealth: 0
   damage: 5
   coin: 3

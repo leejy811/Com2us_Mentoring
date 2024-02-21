@@ -10,9 +10,9 @@ public class Bullet : MonoBehaviour
 
     protected void FixedUpdate()
     {
-        if (target == null)
+        if (target == null || !target.gameObject.activeSelf)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             return;
         }
         Vector3 attckDir = (target.position - transform.position).normalized;
@@ -33,7 +33,7 @@ public class Bullet : MonoBehaviour
         if (collision.tag == "Enemy")
         {
             collision.GetComponent<Enemy>().GetDamage(damage);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

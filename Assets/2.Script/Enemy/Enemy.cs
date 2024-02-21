@@ -5,7 +5,6 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Transform[] wayPoints;
-    public bool isEnemyLive;
 
     [SerializeField] private int maxHealth;
     [SerializeField] private int curHealth;
@@ -24,6 +23,7 @@ public class Enemy : MonoBehaviour
         player = GameManager.instance.player;
         wayPoints = points;
         curHealth = maxHealth;
+        curIndex = 0;
 
         transform.position = wayPoints[curIndex].position;
 
@@ -56,7 +56,7 @@ public class Enemy : MonoBehaviour
         else
         {
             player.GetDamage(damage);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
@@ -66,14 +66,15 @@ public class Enemy : MonoBehaviour
 
         if (curHealth <= 0)
         {
-            OnDie();
+            StartCoroutine(OnDie(0.8f));
         }
     }
 
-    void OnDie()
+    IEnumerator OnDie(float Delay)
     {
         animator.SetBool("isDie", true);
         player.GetCoin(coin);
-        Destroy(gameObject, 0.8f);
+        yield return new WaitForSeconds(Delay);
+        gameObject.SetActive(false);
     }
 }

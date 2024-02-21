@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public PlayerInfo player;
     public InputManager inputManager;
     public TowerSpawner towerSpawner;
+    public PoolManager poolManager;
 
     private void Awake()
     {

@@ -30,7 +30,7 @@ public class EnemySpawner : MonoBehaviour
                 spawnCount = Random.Range(spawnRange.x, spawnRange.y);
                 spawnIndex = Random.Range(0, enemyPrefabs.Length);
             }
-            GameObject enemy = Instantiate(enemyPrefabs[spawnIndex]);
+            GameObject enemy = GameManager.instance.poolManager.GetPool(enemyPrefabs[spawnIndex].name);
             enemy.GetComponent<Enemy>().Init(wayPoints);
             spawnCount--;
             yield return new WaitForSeconds(spawnTime);

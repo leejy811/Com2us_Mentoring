@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TowerType { Attack, Buff }
+public enum TowerType { Bow, Magic, Melee, Buff }
 
 public class Tower : MonoBehaviour
 {
@@ -13,9 +13,9 @@ public class Tower : MonoBehaviour
     [SerializeField] protected float attackRange;
     
     protected Transform target;
-
-    [SerializeField] protected SpriteRenderer radiusSprite;
     protected bool isSpawn;
+
+    public SpriteRenderer radiusSprite;
 
     //버프 관련 변수
     public int buffLevel = 0;
@@ -37,7 +37,7 @@ public class Tower : MonoBehaviour
         radiusSprite.gameObject.SetActive(false);
         gameObject.GetComponent<FollowMouse>().enabled = false;
 
-        if (type == TowerType.Attack)
+        if (type != TowerType.Buff)
             StartCoroutine("AttackTarget");
     }
 
@@ -48,6 +48,7 @@ public class Tower : MonoBehaviour
 
     protected IEnumerator AttackTarget()
     {
+        gameObject.GetComponent<Animator>().SetFloat("AttackSpeed", 1 / attackSpeed);
         while (true)
         {
             if (target == null)
@@ -55,8 +56,19 @@ public class Tower : MonoBehaviour
                 yield return new WaitForFixedUpdate();
                 continue;
             }
-            OnAttack();
-            yield return new WaitForSeconds(attackSpeed);
+
+            if(type == TowerType.Melee)
+            {
+                gameObject.GetComponent<Animator>().SetTrigger("doAttack");
+                OnAttack();
+                yield return new WaitForSeconds(attackSpeed);
+            }
+            else
+            {
+                gameObject.GetComponent<Animator>().SetTrigger("doAttack");
+                yield return new WaitForSeconds(attackSpeed);
+                OnAttack();
+            }
         }
     }
 
@@ -86,7 +98,7 @@ public class Tower : MonoBehaviour
     protected virtual void OnAttack()
     {
         Vector3 attackDir = target.position - transform.position;
-        transform.localScale = attackDir.x > 0 ? new Vector3(1, 1, 1) : new Vector3(-1, 1, 1);
+        transform.localScale = attackDir.x > 0 ? Vector3.one : new Vector3(-1, 1, 1);
     }
 
     public void PickTower(bool isPick)

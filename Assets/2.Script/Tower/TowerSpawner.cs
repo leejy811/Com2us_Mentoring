@@ -34,7 +34,7 @@ public class TowerSpawner : MonoBehaviour
         isPickTower = true;
 
         OffPickAllTower();
-        curPickTower = Instantiate(towerPrefabs[index]);
+        curPickTower = GameManager.instance.poolManager.GetPool(towerPrefabs[index].name);
         curPickTower.GetComponent<Tower>().SetRangeRadius();
     }
 
@@ -42,7 +42,7 @@ public class TowerSpawner : MonoBehaviour
     {
         if (!isPickTower) return;
 
-        curPickTower.GetComponentsInChildren<SpriteRenderer>()[1].color = color;
+        curPickTower.GetComponent<Tower>().radiusSprite.color = color;
     }
 
     public void OffPickAllTower()

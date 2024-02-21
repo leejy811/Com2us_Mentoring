@@ -130,9 +130,11 @@ MonoBehaviour:
   type: 0
   level: 0
   damage: 3
-  attackSpeed: 1
-  attackRange: 5
+  attackSpeed: 0.3
+  attackRange: 10
   radiusSprite: {fileID: 7946972468933973046}
+  buffLevel: 0
+  addedDamage: 0
   bulletOffset: {x: 1, y: 0, z: 0}
   bulletPrefab: {fileID: 3544143188996726030, guid: 39a51f5a8e5b3034a99711cc99411330, type: 3}
 --- !u!114 &6432447870153720847
