@@ -14,10 +14,10 @@ public class RangeTower : Tower
         string poolname = "";
         switch (type)
         {
-            case TowerType.Bow:
+            case TowerType.Archer:
                 poolname = "BowBullet";
                 break;
-            case TowerType.Magic:
+            case TowerType.Wizard:
                 poolname = "MagicBullet";
                 break;
             default:

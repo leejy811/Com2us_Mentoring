@@ -128,11 +128,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  level: 0
-  damage: 3
-  attackSpeed: 0.3
-  attackRange: 10
   radiusSprite: {fileID: 7946972468933973046}
+  towerSprite:
+  - {fileID: 260148861, guid: 1142e71a41f31de4d8562b7b07bf71ed, type: 3}
   buffLevel: 0
   addedDamage: 0
   bulletOffset: {x: 1, y: 0, z: 0}

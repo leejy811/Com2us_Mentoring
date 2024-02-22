@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c4c527a1821b824b877aeaf877d1505
+guid: 3b54c8b3c980ecd498ab63889ad9d37f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,12 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Knught_0
+      name: Knight_0
       rect:
         serializedVersion: 2
-        x: 26
+        x: 25
         y: 840
-        width: 14
+        width: 15
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdf27f094a9cdc4b8963491d9bac2e4
-      internalID: -1032322609
+      spriteID: 8067bd2dca325ab4089006ac5c4fe9d6
+      internalID: 1951885345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_1
+      name: Knight_1
       rect:
         serializedVersion: 2
         x: 90
@@ -164,19 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc59818ee1517740baf66defbaafc07
-      internalID: -42840439
+      spriteID: 5cb9ba1d2f51cfd489e00bc4c59489f9
+      internalID: 752079711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_2
+      name: Knight_2
       rect:
         serializedVersion: 2
-        x: 26
+        x: 25
         y: 776
-        width: 14
+        width: 15
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -185,61 +185,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40069de7f5a04ee4fab125c08cbb806c
-      internalID: -465998200
+      spriteID: a90cca4c06bc40e42ae3d6f364f534f9
+      internalID: 1514785998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_3
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 776
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 982eb175460550c47b5e54ce68e4f23c
-      internalID: 907748708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_4
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 712
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1336dda3526a08946bb3751c259fe26a
-      internalID: -1051159388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_5
+      name: Knight_3
       rect:
         serializedVersion: 2
         x: 89
-        y: 712
-        width: 16
+        y: 776
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -248,19 +206,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80fcac57a683bd047980321987ca1c39
-      internalID: 205702353
+      spriteID: 77d874aa62533d845820e97735621507
+      internalID: -1142734833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_6
+      name: Knight_4
       rect:
         serializedVersion: 2
-        x: 154
+        x: 25
         y: 712
-        width: 14
+        width: 15
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -269,270 +227,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7b853a2be1529a4a9286c13901259fe
-      internalID: 807198234
+      spriteID: 7150573f8fb75e549b26810393d5e87d
+      internalID: 830017423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_7
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 712
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3b1fdbbe5c05f34ebb6a1f1c24d7819
-      internalID: -521296062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_8
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 648
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bfa76e81aa9f2545a44cc2def27600b
-      internalID: 1555542378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_9
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 648
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16287cc5cf00b1342a294fca310959c9
-      internalID: -1782903072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_10
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 648
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00d9c498bcfe82b4787168a234d78906
-      internalID: 635637739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_11
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 648
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b24d721898b06b499c2ccfbb3814f85
-      internalID: -1288247514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_12
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 584
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 687342349f9aaa44f9357890e30bae65
-      internalID: -1762014214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_13
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 584
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 879e838f5b63017408b06f4943f74ea3
-      internalID: -959768959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_14
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 520
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9d2854c90076104fb894b7cc4e9fe5d
-      internalID: 1085411402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_15
+      name: Knight_5
       rect:
         serializedVersion: 2
         x: 88
-        y: 520
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf3637ae194991e4d83f78b49409e02d
-      internalID: 634754413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_16
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 520
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 035e5a68acd981f478c9deb883592007
-      internalID: -476249911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_17
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 456
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d42b601bf0b935b44a9decaca9ff122a
-      internalID: -997288808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_18
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 456
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e85812b645cf114b979e9c20becdbd2
-      internalID: 1963095745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_19
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 456
+        y: 712
         width: 17
         height: 16
       alignment: 0
@@ -542,18 +248,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab447b7ea7f76bb4db614b169ff653c5
-      internalID: 504380584
+      spriteID: 5b35ec67a243f214db76dc9c6c6ce4b8
+      internalID: 1816576188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_20
+      name: Knight_6
       rect:
         serializedVersion: 2
-        x: 26
-        y: 392
+        x: 153
+        y: 712
         width: 15
         height: 17
       alignment: 0
@@ -563,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 167bd98434832cb429b8b6c5e712604a
-      internalID: -1581388918
+      spriteID: 4e098be7fca39a44bb6bcb0f2d0f0bd2
+      internalID: -2041753466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_21
+      name: Knight_7
       rect:
         serializedVersion: 2
-        x: 90
-        y: 392
+        x: 218
+        y: 712
         width: 12
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,18 +290,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aeb66fa34e00604f8cdbf7c5c5e5c8c
-      internalID: 1474944843
+      spriteID: c6762dbb7f019904bb13d68c10b905bc
+      internalID: 1148205989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_22
+      name: Knight_8
       rect:
         serializedVersion: 2
-        x: 154
-        y: 392
+        x: 26
+        y: 648
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d753ae9ba80574da0ba69f647a85c5
+      internalID: -125796364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 647
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a0c86d02db71848bdb855cc0bbcb5c
+      internalID: 416379076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 648
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c752bccb0c9a9044ca391d7516854415
+      internalID: -488742255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 647
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54003a20694a62343a406460029a96fa
+      internalID: -1730441528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 584
         width: 13
         height: 16
       alignment: 0
@@ -605,40 +395,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85b1dd7b1d8154940b9b38b480fe008b
-      internalID: 643092713
+      spriteID: db0936a01198b424cbc6fbd466c0fe72
+      internalID: 1998479522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_23
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 328
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96e5a8bbbb4c61344aaf2b2d1d4ee611
-      internalID: -2014061221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_24
+      name: Knight_13
       rect:
         serializedVersion: 2
         x: 90
-        y: 328
-        width: 14
+        y: 584
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2ca9d27c2bea54789d5d8b30bb3c28
+      internalID: -253975619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 520
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85740d9a59c11134aa5947e4901da041
+      internalID: -1767419826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 520
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3ec244c0c2b284c90e1b8a183491ef
+      internalID: 1220598659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 520
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11b22e402ce5a44a4eb8b4340a2e6a
+      internalID: -1847581684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 456
+        width: 15
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -647,56 +500,203 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 546eb18c5d2e18f4e8de8dbfa8537e5d
-      internalID: -1148133048
+      spriteID: eeaa1781dcd60a145a9919ac8e3771da
+      internalID: -47216102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_25
+      name: Knight_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 456
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3adf6788894414db2f54c2d37d0cfa
+      internalID: -738030395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 456
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf8717ca217f1e49a6d513b00cb4ebc
+      internalID: 1826966910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 392
+        width: 15
+        height: 17
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7b120888d6a74e8d0b166091dbfe7
+      internalID: 1795591364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 392
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e71b3c253a2a0b45919619ba798b61c
+      internalID: -267161544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 392
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d704bdd9249ca074c8eca0457f859c14
+      internalID: 2096266688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 328
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c471b419cf7112542a159a7d9e1e4037
+      internalID: -483971597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 328
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5782d71e4f88cfa46be52cfc4f3abb7c
+      internalID: -1743155201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_25
       rect:
         serializedVersion: 2
         x: 154
         y: 328
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 23
+        height: 19
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c62677ef636ef94da54c9198f07de29
-      internalID: 2031229523
+      spriteID: 5068590d2d0eb6f4d997658d1a07ec69
+      internalID: 837797187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_26
+      name: Knight_26
       rect:
         serializedVersion: 2
         x: 218
         y: 328
-        width: 12
+        width: 22
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09213a73cd28aeb469bf7e93f2599985
-      internalID: -1972856787
+      spriteID: 27ba5940612aeda45a3965a2d4a18137
+      internalID: -1056245960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_27
+      name: Knight_27
       rect:
         serializedVersion: 2
         x: 26
@@ -710,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 846a0572432f8ea4ba8bc735feb9c97a
-      internalID: 1208840692
+      spriteID: 4fad3c7aac1450c46a3ac83df0d293bc
+      internalID: -136031297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_28
+      name: Knight_28
       rect:
         serializedVersion: 2
         x: 90
@@ -731,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a8fa632a2583f48a960099c9660f5a
-      internalID: 837955978
+      spriteID: 184f85e8635763d418616ea15af98816
+      internalID: -3598269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_29
+      name: Knight_29
       rect:
         serializedVersion: 2
         x: 154
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3d3be5f5444bae43865b227879c94e5
-      internalID: 1836911429
+      spriteID: 3f511ee8f900e6e4684073e6cec81b27
+      internalID: -775902278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_30
+      name: Knight_30
       rect:
         serializedVersion: 2
         x: 218
@@ -773,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e83e6a56a08cae142977496c2f21307e
-      internalID: 1223010036
+      spriteID: de85e06521f62c84ebf20c8e88d0d24e
+      internalID: -1403950491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_31
+      name: Knight_31
       rect:
         serializedVersion: 2
         x: 26
@@ -794,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12aef1abf687e824491adfba542c77b3
-      internalID: 1080260403
+      spriteID: 25aedaf328bf73748848a3b4b2fb3325
+      internalID: -1836542677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_32
+      name: Knight_32
       rect:
         serializedVersion: 2
         x: 90
@@ -815,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51df93b573d49bf43a832ea4b049cccc
-      internalID: -659348766
+      spriteID: bc14887d8274c5e4db2696fa337846bd
+      internalID: 533677309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_33
+      name: Knight_33
       rect:
         serializedVersion: 2
         x: 26
@@ -836,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b21ae6e0021a440997b7fb05b8fe68
-      internalID: 2099971530
+      spriteID: ac1f5b71589268540b80b363c339d818
+      internalID: 966989459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_34
+      name: Knight_34
       rect:
         serializedVersion: 2
         x: 89
@@ -857,60 +857,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aa22c13f044bb34ea83d4a5ff2899f4
-      internalID: -2012716677
+      spriteID: 9eac59b5f6609a54e9e3087d4ccb5434
+      internalID: -486199368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_35
+      name: Knight_35
       rect:
         serializedVersion: 2
-        x: 26
+        x: 25
         y: 72
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03f0d2a91df39d643b3211b9174243b2
-      internalID: -2079003913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_36
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 72
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c987c51953e1e5438b017884087c53a
-      internalID: 2105675078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Knught_37
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 8
         width: 14
         height: 17
       alignment: 0
@@ -920,20 +878,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd6a6e91db697f488c1b1b741fc4aea
-      internalID: -1685839674
+      spriteID: 67a115352717c2f4a859e13fea4272dd
+      internalID: -1849003216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_38
+      name: Knight_36
       rect:
         serializedVersion: 2
-        x: 91
-        y: 8
-        width: 13
-        height: 13
+        x: 89
+        y: 72
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -941,20 +899,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 302051c72b146a8419904069a6f454db
-      internalID: -154698390
+      spriteID: fff323b00a5884c47a2ca61a4281af0f
+      internalID: -1416000652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Knught_39
+      name: Knight_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 8
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e3bd98416445f4b81dde980c9ba780
+      internalID: 145063045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_38
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 8
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bd4f613ec1bb44eaefd110705d4dc8
+      internalID: 2117351943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_39
       rect:
         serializedVersion: 2
         x: 156
-        y: 8
+        y: 7
         width: 15
-        height: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,8 +962,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37aeb05818947a64ab3097acc6db6895
-      internalID: -1311388808
+      spriteID: 193cb5042a77e96449625c6abc7ad682
+      internalID: 1657745008
       vertices: []
       indices: 
       edges: []
@@ -979,46 +979,46 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Knught_0: -1032322609
-      Knught_1: -42840439
-      Knught_10: 635637739
-      Knught_11: -1288247514
-      Knught_12: -1762014214
-      Knught_13: -959768959
-      Knught_14: 1085411402
-      Knught_15: 634754413
-      Knught_16: -476249911
-      Knught_17: -997288808
-      Knught_18: 1963095745
-      Knught_19: 504380584
-      Knught_2: -465998200
-      Knught_20: -1581388918
-      Knught_21: 1474944843
-      Knught_22: 643092713
-      Knught_23: -2014061221
-      Knught_24: -1148133048
-      Knught_25: 2031229523
-      Knught_26: -1972856787
-      Knught_27: 1208840692
-      Knught_28: 837955978
-      Knught_29: 1836911429
-      Knught_3: 907748708
-      Knught_30: 1223010036
-      Knught_31: 1080260403
-      Knught_32: -659348766
-      Knught_33: 2099971530
-      Knught_34: -2012716677
-      Knught_35: -2079003913
-      Knught_36: 2105675078
-      Knught_37: -1685839674
-      Knught_38: -154698390
-      Knught_39: -1311388808
-      Knught_4: -1051159388
-      Knught_5: 205702353
-      Knught_6: 807198234
-      Knught_7: -521296062
-      Knught_8: 1555542378
-      Knught_9: -1782903072
+      Knight_0: 1951885345
+      Knight_1: 752079711
+      Knight_10: -488742255
+      Knight_11: -1730441528
+      Knight_12: 1998479522
+      Knight_13: -253975619
+      Knight_14: -1767419826
+      Knight_15: 1220598659
+      Knight_16: -1847581684
+      Knight_17: -47216102
+      Knight_18: -738030395
+      Knight_19: 1826966910
+      Knight_2: 1514785998
+      Knight_20: 1795591364
+      Knight_21: -267161544
+      Knight_22: 2096266688
+      Knight_23: -483971597
+      Knight_24: -1743155201
+      Knight_25: 837797187
+      Knight_26: -1056245960
+      Knight_27: -136031297
+      Knight_28: -3598269
+      Knight_29: -775902278
+      Knight_3: -1142734833
+      Knight_30: -1403950491
+      Knight_31: -1836542677
+      Knight_32: 533677309
+      Knight_33: 966989459
+      Knight_34: -486199368
+      Knight_35: -1849003216
+      Knight_36: -1416000652
+      Knight_37: 145063045
+      Knight_38: 2117351943
+      Knight_39: 1657745008
+      Knight_4: 830017423
+      Knight_5: 1816576188
+      Knight_6: -2041753466
+      Knight_7: 1148205989
+      Knight_8: -125796364
+      Knight_9: 416379076
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

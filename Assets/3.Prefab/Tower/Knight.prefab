@@ -246,11 +246,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  level: 0
-  damage: 3
-  attackSpeed: 1
-  attackRange: 10
   radiusSprite: {fileID: 7946972468933973046}
+  towerSprite:
+  - {fileID: 1951885345, guid: 3b54c8b3c980ecd498ab63889ad9d37f, type: 3}
   buffLevel: 0
   addedDamage: 0
   weapon: {fileID: 7120920794706816267}

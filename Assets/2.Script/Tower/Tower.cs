@@ -2,20 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TowerType { Bow, Magic, Melee, Buff }
+public enum TowerType { Archer = 0, Wizard, Knight, Priest }
 
 public class Tower : MonoBehaviour
 {
-    [SerializeField] protected TowerType type;
-    [SerializeField] protected int level;
-    [SerializeField] protected int damage;
-    [SerializeField] protected float attackSpeed;
-    [SerializeField] protected float attackRange;
-    
+    public TowerType type;
+    public int level { get; private set; }
+    public int damage { get; private set; }
+    public float attackSpeed { get; private set; }
+    public float attackRange { get; private set; }
+
     protected Transform target;
     protected bool isSpawn;
 
     public SpriteRenderer radiusSprite;
+    public Sprite[] towerSprite;
 
     //버프 관련 변수
     public int buffLevel = 0;
@@ -23,7 +24,7 @@ public class Tower : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isSpawn || type == TowerType.Buff) return;
+        if (!isSpawn || type == TowerType.Priest) return;
 
         target = GetTarget();
     }
@@ -37,7 +38,7 @@ public class Tower : MonoBehaviour
         radiusSprite.gameObject.SetActive(false);
         gameObject.GetComponent<FollowMouse>().enabled = false;
 
-        if (type != TowerType.Buff)
+        if (type != TowerType.Priest)
             StartCoroutine("AttackTarget");
     }
 
@@ -57,7 +58,7 @@ public class Tower : MonoBehaviour
                 continue;
             }
 
-            if(type == TowerType.Melee)
+            if(type == TowerType.Knight)
             {
                 gameObject.GetComponent<Animator>().SetTrigger("doAttack");
                 OnAttack();
@@ -105,5 +106,10 @@ public class Tower : MonoBehaviour
     {
         radiusSprite.gameObject.SetActive(isPick);
         SetRangeRadius();
+
+        if (isPick)
+        {
+            GameManager.instance.uiManager.SetStatWindow(this);
+        }
     }
 }

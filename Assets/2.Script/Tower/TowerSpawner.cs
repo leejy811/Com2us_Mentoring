@@ -28,7 +28,7 @@ public class TowerSpawner : MonoBehaviour
         curPickTower = null;
     }
 
-    public void ChangePickState(int index)
+    public void BuyTower(int index)
     {
         if (isPickTower) return;
         isPickTower = true;
