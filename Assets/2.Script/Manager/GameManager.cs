@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class GameManager : MonoBehaviour
     public PlayerInfo player;
     public InputManager inputManager;
     public TowerSpawner towerSpawner;
+    public EnemySpawner enemySpawner;
     public PoolManager poolManager;
     public UIManager uiManager;
     public DBManager dbManager;
@@ -27,6 +29,11 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Time.timeScale = 0;
+        StartCoroutine(uiManager.GameOver(2f));
+    }
+
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

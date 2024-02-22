@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class MeleeWeapon : MonoBehaviour
 {
+    public BoxCollider2D boxCollider;
     int weaponDamage;
-    BoxCollider2D boxCollider;
 
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
-    public IEnumerator MeleeAttack(int damage)
+    public IEnumerator MeleeAttack(int damage, float range)
     {
         weaponDamage = damage;
+        boxCollider.size = new Vector2(boxCollider.size.x, range);
         yield return new WaitForSeconds(0.5f);
         boxCollider.enabled = true;
         yield return new WaitForSeconds(0.5f);

@@ -25,7 +25,11 @@ public class InputManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if (hit.collider.tag == "BackGround")
+            if(Time.timeScale < 0.01f)
+            {
+                GameManager.instance.ChangeScene("LobbyScene");
+            }
+            else if (hit.collider.tag == "BackGround")
             {
                 towerSpawner.SpawnTower(hit.transform);
             }

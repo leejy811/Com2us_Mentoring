@@ -12,11 +12,12 @@ public class PlayerInfo : MonoBehaviour
     private void Awake()
     {
         curHealth = maxHealth;
-        coin = 1000000000;
+        coin = 1000;
     }
 
     public void GetDamage(int damage)
     {
+        if (curHealth <= 0) return;
         curHealth -= damage;
 
         if(curHealth <= 0)

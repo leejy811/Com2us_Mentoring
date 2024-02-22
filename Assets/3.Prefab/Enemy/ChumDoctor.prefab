@@ -114,11 +114,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wayPoints: []
-  isEnemyLive: 0
   maxHealth: 10
   curHealth: 0
   damage: 5
   coin: 3
+  healthBarOffset: {x: 0, y: 1.3, z: 0}
 --- !u!61 &6756145102860912404
 BoxCollider2D:
   m_ObjectHideFlags: 0

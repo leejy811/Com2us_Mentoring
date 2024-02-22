@@ -8,10 +8,14 @@ public class UIManager : MonoBehaviour
 {
     #region UIComponent
     [Header("Information")]
+    public GameObject topInfo;
     public Image hpImage;
     public TextMeshProUGUI coinText;
+    public TextMeshProUGUI waveText;
+    public TextMeshProUGUI countText;
 
     [Header("Shop")]
+    public GameObject shopWindow;
     public TextMeshProUGUI[] ShopPriceText;
 
     [Header("Stat")]
@@ -32,6 +36,12 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI sellPriceText;
     public TextMeshProUGUI successProbText;
     public TextMeshProUGUI destroyProbText;
+
+    [Header("GameOver")]
+    public GameObject gameOver;
+    public Image gameOverImage;
+    public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI goToLobbyText;
     #endregion
 
     #region Component
@@ -80,7 +90,7 @@ public class UIManager : MonoBehaviour
     }
     private void SetPlayerInfo()
     {
-        hpImage.fillAmount = player.curHealth / player.maxHealth;
+        hpImage.fillAmount = (float)player.curHealth / (float)player.maxHealth;
         coinText.text = player.coin.ToString();
     }
 
@@ -129,6 +139,12 @@ public class UIManager : MonoBehaviour
         successProbText.text = DB.towerSuccessProb[level].ToString() + "% Success";
         destroyProbText.text = DB.towerDestroyProb[level].ToString() + "% Destroy";
     }
+
+    public void SetWaveInfo(int wave, int enemycnt, int wacecnt)
+    {
+        waveText.text = "Wave : " + wave;
+        countText.text = enemycnt + " / " + wacecnt;
+    }
     #endregion
 
     #region OnClickFunc
@@ -165,6 +181,39 @@ public class UIManager : MonoBehaviour
         statWindow.SetActive(false);
         towerSpawner.SetPickTower(false, null);
         towerSpawner.OffPickAllTower();
+    }
+
+    public void OnClickNextWaveButton()
+    {
+        GameManager.instance.enemySpawner.NextWave();
+    }
+    #endregion
+
+    #region Coroutine
+    public IEnumerator GameOver(float speed)
+    {
+        topInfo.SetActive(false);
+        shopWindow.SetActive(false);
+        statWindow.SetActive(false);
+        gameOver.SetActive(true);
+
+        while (true)
+        {
+            gameOverImage.color += new Color(0, 0, 0, Time.fixedDeltaTime * speed);
+            gameOverText.color += new Color(0, 0, 0, Time.fixedDeltaTime * speed);
+            goToLobbyText.color += new Color(0, 0, 0, Time.fixedDeltaTime * speed);
+
+            if (Time.timeScale - Time.fixedDeltaTime * speed < 0.02f)
+            {
+                Time.timeScale = 0;
+                break;
+            }
+            else
+            {
+                Time.timeScale -= Time.fixedDeltaTime * speed;
+            }
+            yield return new WaitForFixedUpdate();
+        }
     }
     #endregion
 }

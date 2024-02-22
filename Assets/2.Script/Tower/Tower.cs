@@ -89,7 +89,7 @@ public class Tower : MonoBehaviour
         }
     }
 
-    protected Transform GetTarget()
+    protected virtual Transform GetTarget()
     {
         Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, attackRange, LayerMask.GetMask("Enemy"));
         Transform resultTransform = null;
