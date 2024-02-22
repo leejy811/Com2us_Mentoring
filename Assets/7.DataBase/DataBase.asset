@@ -19,80 +19,80 @@ MonoBehaviour:
     DestroyProb: 0
   - EnhancePrice: 200
     SellPrice: 20
-    SuccessProb: 95
-    DestroyProb: 2
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 300
     SellPrice: 30
-    SuccessProb: 90
-    DestroyProb: 4
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 400
     SellPrice: 40
-    SuccessProb: 85
-    DestroyProb: 5
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 500
     SellPrice: 50
-    SuccessProb: 80
-    DestroyProb: 6
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 600
     SellPrice: 60
-    SuccessProb: 75
-    DestroyProb: 8
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 700
     SellPrice: 70
-    SuccessProb: 70
-    DestroyProb: 10
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 800
     SellPrice: 80
-    SuccessProb: 65
-    DestroyProb: 12
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 900
     SellPrice: 90
-    SuccessProb: 60
-    DestroyProb: 14
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1000
     SellPrice: 100
-    SuccessProb: 55
-    DestroyProb: 16
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1100
     SellPrice: 110
-    SuccessProb: 50
-    DestroyProb: 18
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1200
     SellPrice: 120
-    SuccessProb: 45
-    DestroyProb: 20
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1300
     SellPrice: 130
-    SuccessProb: 40
-    DestroyProb: 22
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1400
     SellPrice: 140
-    SuccessProb: 35
-    DestroyProb: 24
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1500
     SellPrice: 150
-    SuccessProb: 30
-    DestroyProb: 26
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1600
     SellPrice: 160
-    SuccessProb: 25
-    DestroyProb: 28
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1700
     SellPrice: 170
-    SuccessProb: 20
-    DestroyProb: 30
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1800
     SellPrice: 180
-    SuccessProb: 15
-    DestroyProb: 35
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 1900
     SellPrice: 190
-    SuccessProb: 10
-    DestroyProb: 40
+    SuccessProb: 100
+    DestroyProb: 0
   - EnhancePrice: 2000
     SellPrice: 200
-    SuccessProb: 5
-    DestroyProb: 50
+    SuccessProb: 100
+    DestroyProb: 0
   ArcherEntities:
   - Damage: 1
     Speed: 1

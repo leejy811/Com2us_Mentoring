@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3013455778307204420}
   - component: {fileID: 4813539674104790672}
   - component: {fileID: 6432447870153720847}
-  - component: {fileID: 161937623381344121}
+  - component: {fileID: 4816393966403745247}
   m_Layer: 7
   m_Name: Wizard
   m_TagString: Tower
@@ -129,8 +129,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   radiusSprite: {fileID: 7946972468933973046}
-  towerSprite:
-  - {fileID: 260148861, guid: 1142e71a41f31de4d8562b7b07bf71ed, type: 3}
+  towerAnimator:
+  - {fileID: 9100000, guid: 6d4fae8ef7818cb44874c4f891eaf0a8, type: 2}
+  - {fileID: 9100000, guid: 6774d5785d1419a4e9b9d4c2c2b24255, type: 2}
+  - {fileID: 9100000, guid: 8c3a689b93a79ba43a1c88bd173a9a68, type: 2}
+  - {fileID: 9100000, guid: 7ab29f2f360f3ef43bc40d3d860979bf, type: 2}
   buffLevel: 0
   addedDamage: 0
   bulletOffset: {x: 1, y: 0, z: 0}
@@ -146,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c48eff6a86f1504cbed10c9c68b1edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &161937623381344121
+--- !u!95 &4816393966403745247
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -156,7 +159,7 @@ Animator:
   m_GameObject: {fileID: 5221182930454428838}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6d4fae8ef7818cb44874c4f891eaf0a8, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

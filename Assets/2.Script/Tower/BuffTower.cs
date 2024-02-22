@@ -18,12 +18,18 @@ public class BuffTower : Tower
             if (target.gameObject.GetComponent<BuffTower>() != null) continue;
 
             Tower tower = target.gameObject.GetComponent<Tower>();
-            if (buffLevel < level)
+            if (buffLevel < level || buffLevel == 0)
             {
                 tower.buffLevel = level;
                 tower.addedDamage = damage;
             }
         }
+    }
+
+    public override void DestroyTower()
+    {
+        OffBuff();
+        base.DestroyTower();
     }
 
     void OffBuff()

@@ -22,10 +22,10 @@ public class TowerSpawner : MonoBehaviour
     public void SpawnTower(Transform spawnPos)
     {
         if (!isBuyTower) return;
-            
+
         towerList.Add(curPickTower);
-        curPickTower.transform.position = spawnPos.position;
-        curPickTower.GetComponent<Tower>().Init();
+        curPickTower.transform.position = new Vector3(spawnPos.position.x, spawnPos.position.y, 0);
+        curPickTower.GetComponent<Tower>().InitSpawn();
         isBuyTower = false;
         curPickTower = null;
     }
@@ -37,7 +37,7 @@ public class TowerSpawner : MonoBehaviour
 
         OffPickAllTower();
         curPickTower = GameManager.instance.poolManager.GetPool(towerPrefabs[index].name);
-        curPickTower.GetComponent<Tower>().SetRangeRadius();
+        curPickTower.GetComponent<Tower>().InitBuy();
     }
 
     public void ChangeTowerColor(Color color)

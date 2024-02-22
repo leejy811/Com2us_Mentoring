@@ -18,7 +18,7 @@ public class Tower : MonoBehaviour
     protected DBManager dBManager;
 
     public SpriteRenderer radiusSprite;
-    public Sprite[] towerSprite;
+    public RuntimeAnimatorController[] towerAnimator;
 
     //버프 관련 변수
     public int buffLevel = 0;
@@ -31,7 +31,7 @@ public class Tower : MonoBehaviour
         target = GetTarget();
     }
 
-    public void Init()
+    public void InitSpawn()
     {
         isSpawn = true;
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
@@ -40,13 +40,23 @@ public class Tower : MonoBehaviour
         radiusSprite.gameObject.SetActive(false);
         gameObject.GetComponent<FollowMouse>().enabled = false;
 
+        if (type != TowerType.Priest)
+            StartCoroutine("AttackTarget");
+    }
+
+    public void InitBuy()
+    {
         dBManager = GameManager.instance.dbManager;
 
         level = -1;
         LevelUp();
 
-        if (type != TowerType.Priest)
-            StartCoroutine("AttackTarget");
+        isSpawn = false;
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        gameObject.GetComponent<Animator>().enabled = false;
+
+        radiusSprite.gameObject.SetActive(true);
+        gameObject.GetComponent<FollowMouse>().enabled = true;
     }
 
     public void SetRangeRadius()
@@ -56,7 +66,6 @@ public class Tower : MonoBehaviour
 
     protected IEnumerator AttackTarget()
     {
-        gameObject.GetComponent<Animator>().SetFloat("AttackSpeed", 1 / attackSpeed);
         while (true)
         {
             if (target == null)
@@ -139,15 +148,22 @@ public class Tower : MonoBehaviour
 
         int index = (int)type;
         level++;
+
         damage = dBManager.towerAttackDamage[index][level];
         attackSpeed = dBManager.towerAttackSpeed[index][level];
         attackRange = dBManager.towerAttackRange[index][level];
+        gameObject.GetComponent<Animator>().runtimeAnimatorController = towerAnimator[level / 5];
+
+        if (type != TowerType.Priest)
+            gameObject.GetComponent<Animator>().SetFloat("AttackSpeed", 1.0f / attackSpeed);
+        SetRangeRadius();
         return true;
     }
 
-    public void DestroyTower()
+    public virtual void DestroyTower()
     {
         gameObject.SetActive(false);
         GameManager.instance.uiManager.statWindow.SetActive(false);
+        GameManager.instance.towerSpawner.isPickTower = false;
     }
 }

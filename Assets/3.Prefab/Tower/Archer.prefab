@@ -131,6 +131,14 @@ MonoBehaviour:
   radiusSprite: {fileID: 7946972468933973046}
   towerSprite:
   - {fileID: -731946428, guid: 4db4cedcfa0380c429acd77fc47bbbaf, type: 3}
+  - {fileID: 1160945006, guid: 6b4465d7ff2971746b62b69b508aadf5, type: 3}
+  - {fileID: -1075142577, guid: 529624daee5254444bb67ea738cd0add, type: 3}
+  - {fileID: -1217400454, guid: 603f3ce51a0033247a5ca31f91093a48, type: 3}
+  towerAnimator:
+  - {fileID: 9100000, guid: 810fcdd223f177240b233b9cbb62cbf1, type: 2}
+  - {fileID: 9100000, guid: 94bf122273b6c6c4b9750b9cf3ff3986, type: 2}
+  - {fileID: 9100000, guid: d1676f8a1d70bf446b23cfa3704bebc7, type: 2}
+  - {fileID: 9100000, guid: 90085f7a92e41d243bbb42ed20dbaf00, type: 2}
   buffLevel: 0
   addedDamage: 0
   bulletOffset: {x: 1, y: 0, z: 0}

@@ -247,8 +247,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   radiusSprite: {fileID: 7946972468933973046}
-  towerSprite:
-  - {fileID: 1951885345, guid: 3b54c8b3c980ecd498ab63889ad9d37f, type: 3}
+  towerAnimator:
+  - {fileID: 9100000, guid: 14fd9abe64918814baab599c78b6b48d, type: 2}
+  - {fileID: 9100000, guid: 60706ec01709e5e49a55cc73c3902aa2, type: 2}
+  - {fileID: 9100000, guid: 3ff15e6a07d478c4896536b726e97d9a, type: 2}
+  - {fileID: 9100000, guid: 95f54b91e98fce241a1112787900e6ef, type: 2}
   buffLevel: 0
   addedDamage: 0
   weapon: {fileID: 7120920794706816267}

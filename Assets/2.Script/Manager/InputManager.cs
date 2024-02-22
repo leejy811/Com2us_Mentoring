@@ -25,7 +25,7 @@ public class InputManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if(hit.collider.tag == "BackGround")
+            if (hit.collider.tag == "BackGround")
             {
                 towerSpawner.SpawnTower(hit.transform);
             }

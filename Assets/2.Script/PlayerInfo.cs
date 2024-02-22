@@ -12,7 +12,7 @@ public class PlayerInfo : MonoBehaviour
     private void Awake()
     {
         curHealth = maxHealth;
-        coin = 300;
+        coin = 1000000000;
     }
 
     public void GetDamage(int damage)

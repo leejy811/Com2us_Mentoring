@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
         curHealth = maxHealth;
         curIndex = 0;
 
+        movement.enabled = true;
         transform.position = wayPoints[curIndex].position;
 
         StartCoroutine("Move");
@@ -66,7 +67,7 @@ public class Enemy : MonoBehaviour
 
         if (curHealth <= 0)
         {
-            StartCoroutine(OnDie(0.8f));
+            StartCoroutine(OnDie(0.5f));
         }
     }
 
@@ -74,6 +75,7 @@ public class Enemy : MonoBehaviour
     {
         animator.SetBool("isDie", true);
         player.GetCoin(coin);
+        movement.enabled = false;
         yield return new WaitForSeconds(Delay);
         gameObject.SetActive(false);
     }

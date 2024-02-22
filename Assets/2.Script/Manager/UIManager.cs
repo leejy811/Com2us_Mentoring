@@ -16,7 +16,11 @@ public class UIManager : MonoBehaviour
 
     [Header("Stat")]
     public GameObject statWindow;
-    public Image[] towerImages;
+    public Image[] archerImages;
+    public Image[] wizardImages;
+    public Image[] knightImages;
+    public Image[] priestImages;
+    public Image[,] towerImages;
     public TextMeshProUGUI towerTypeText;
     public TextMeshProUGUI towerLevelText;
     public TextMeshProUGUI towerDamageText;
@@ -43,6 +47,7 @@ public class UIManager : MonoBehaviour
         DB = GameManager.instance.dbManager;
         towerSpawner = GameManager.instance.towerSpawner;
         SetShopInfo();
+        InitTowerImage();
     }
 
     private void Update()
@@ -52,6 +57,27 @@ public class UIManager : MonoBehaviour
     #endregion
 
     #region SetValueFunc
+    private void InitTowerImage()
+    {
+        towerImages = new Image[4, 4];
+
+        for(int i = 0;i < archerImages.Length; i++)
+        {
+            towerImages[0, i] = archerImages[i];
+        }
+        for (int i = 0; i < wizardImages.Length; i++)
+        {
+            towerImages[1, i] = wizardImages[i];
+        }
+        for (int i = 0; i < knightImages.Length; i++)
+        {
+            towerImages[2, i] = knightImages[i];
+        }
+        for (int i = 0; i < priestImages.Length; i++)
+        {
+            towerImages[3, i] = priestImages[i];
+        }
+    }
     private void SetPlayerInfo()
     {
         hpImage.fillAmount = player.curHealth / player.maxHealth;
@@ -76,16 +102,23 @@ public class UIManager : MonoBehaviour
     public void SetTowerStat(Tower pickTower)
     {
         int towerIndex = (int)pickTower.type;
-        for (int i = 0;i < towerImages.Length; i++)
+        for (int i = 0; i < 4; i++)
         {
-            towerImages[i].enabled = towerIndex == i;
+            for (int j = 0; j < 4; j++)
+            {
+                towerImages[i, j].enabled = towerIndex == i && (pickTower.level / 5) == j;
+            }
         }
-        towerImages[towerIndex].sprite = pickTower.towerSprite[pickTower.level / 5];
         towerTypeText.text = pickTower.type.ToString();
         towerLevelText.text = (pickTower.level + 1).ToString();
         towerDamageText.text = pickTower.damage.ToString();
         towerSpeedText.text = pickTower.attackSpeed.ToString();
         towerRangeText.text = pickTower.attackRange.ToString();
+
+        if (pickTower.addedDamage > 0)
+        {
+            towerDamageText.text += " + " + pickTower.addedDamage.ToString();
+        }
     }
 
     public void SetEnhanceInfo(Tower pickTower)
@@ -112,7 +145,7 @@ public class UIManager : MonoBehaviour
     {
         Tower tower = towerSpawner.curPickTower.GetComponent<Tower>();
         if (tower.level + 1 == DB.towerEnhancePrice.Count) return;
-        if (!player.PayCoin(int.Parse(enhancePriceText.text))) return;
+        if (!player.PayCoin(DB.towerEnhancePrice[tower.level])) return;
 
         if (!tower.LevelUp()) return;
 
