@@ -8,8 +8,9 @@ using UnityEngine.Tilemaps;
 public class TowerSpawner : MonoBehaviour
 {
     public bool isPickTower = false;
+    public bool isBuyTower = false;
+    public GameObject curPickTower;
 
-    GameObject curPickTower;
     List<GameObject> towerList;
     [SerializeField] GameObject[] towerPrefabs;
 
@@ -20,18 +21,19 @@ public class TowerSpawner : MonoBehaviour
 
     public void SpawnTower(Transform spawnPos)
     {
-        if (!isPickTower) return;
+        if (!isBuyTower) return;
+            
         towerList.Add(curPickTower);
         curPickTower.transform.position = spawnPos.position;
         curPickTower.GetComponent<Tower>().Init();
-        isPickTower = false;
+        isBuyTower = false;
         curPickTower = null;
     }
 
     public void BuyTower(int index)
     {
-        if (isPickTower) return;
-        isPickTower = true;
+        if (isBuyTower) return;
+        isBuyTower = true;
 
         OffPickAllTower();
         curPickTower = GameManager.instance.poolManager.GetPool(towerPrefabs[index].name);
@@ -40,9 +42,15 @@ public class TowerSpawner : MonoBehaviour
 
     public void ChangeTowerColor(Color color)
     {
-        if (!isPickTower) return;
+        if (!isBuyTower) return;
 
         curPickTower.GetComponent<Tower>().radiusSprite.color = color;
+    }
+
+    public void SetPickTower(bool isPick, GameObject tower)
+    {
+        isPickTower = isPick;
+        curPickTower = tower;
     }
 
     public void OffPickAllTower()

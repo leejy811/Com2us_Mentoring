@@ -2395,6 +2395,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPickTower: 0
+  isBuyTower: 0
+  curPickTower: {fileID: 0}
   towerPrefabs:
   - {fileID: 5221182930454428838, guid: be093150fd681144e89b46e8b8a6c267, type: 3}
   - {fileID: 5221182930454428838, guid: f81125eac7462e4499d2707945de7b1b, type: 3}
@@ -5558,6 +5560,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 479891241}
     m_Modifications:
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847426908}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClickEnhanceButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7642481398032952010, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7261,6 +7291,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 479891241}
     m_Modifications:
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 847426908}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClickSellButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591508280134102088, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7642481398032952010, guid: db94ecc86a23c1c41a836156ea391d88, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -25324,6 +25382,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737bd638927ca624db8b45661e4a05e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DB: {fileID: 11400000, guid: 165436fd331c73549ba72367f7b8c16e, type: 2}
+  towerEnhancePrice: 
+  towerSellPrice: 
+  towerSuccessProb: []
+  towerDestroyProb: []
 --- !u!1 &2006473458
 GameObject:
   m_ObjectHideFlags: 0

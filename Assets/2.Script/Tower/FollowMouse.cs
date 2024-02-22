@@ -10,9 +10,15 @@ public class FollowMouse : MonoBehaviour
     void Start()
     {
         main = Camera.main;
+        SetPosition();
     }
 
     void Update()
+    {
+        SetPosition();
+    }
+
+    void SetPosition()
     {
         mousePos = Input.mousePosition;
         mousePos = main.ScreenToWorldPoint(mousePos);

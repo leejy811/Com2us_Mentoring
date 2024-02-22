@@ -62,7 +62,7 @@ public class UIManager : MonoBehaviour
     {
         for(int i = 0;i < ShopPriceText.Length; i++)
         {
-            //ShopPriceText[i].text = DB.towerEnhancePrice[i][0].ToString();
+            ShopPriceText[i].text = DB.towerEnhancePrice[0].ToString();
         }
     }
 
@@ -73,41 +73,64 @@ public class UIManager : MonoBehaviour
         SetEnhanceInfo(pickTower);
     }
 
-    private void SetTowerStat(Tower pickTower)
+    public void SetTowerStat(Tower pickTower)
     {
         int towerIndex = (int)pickTower.type;
         for (int i = 0;i < towerImages.Length; i++)
         {
             towerImages[i].enabled = towerIndex == i;
         }
-        //towerImages[towerIndex].sprite = pickTower.towerSprite[pickTower.level / 5];
+        towerImages[towerIndex].sprite = pickTower.towerSprite[pickTower.level / 5];
         towerTypeText.text = pickTower.type.ToString();
         towerLevelText.text = (pickTower.level + 1).ToString();
         towerDamageText.text = pickTower.damage.ToString();
         towerSpeedText.text = pickTower.attackSpeed.ToString();
-        towerRangeText.text = pickTower.attackSpeed.ToString();
+        towerRangeText.text = pickTower.attackRange.ToString();
     }
 
-    private void SetEnhanceInfo(Tower pickTower)
+    public void SetEnhanceInfo(Tower pickTower)
     {
-        int index = (int)pickTower.type;
         int level = pickTower.level;
-        //enhancePriceText.text = DB.towerEnhancePrice[index][level].ToString();
-        //sellPriceText.text = DB.towerSellPrice[index][level].ToString();
-        //successProbText.text = DB.towerEnhancePrice[index][level].ToString();
-        //destroyProbText.text = DB.towerEnhancePrice[index][level].ToString();
+        enhancePriceText.text = "-" + DB.towerEnhancePrice[level].ToString();
+        sellPriceText.text = "+" + DB.towerSellPrice[level].ToString();
+        successProbText.text = DB.towerSuccessProb[level].ToString() + "% Success";
+        destroyProbText.text = DB.towerDestroyProb[level].ToString() + "% Destroy";
     }
     #endregion
 
     #region OnClickFunc
     public void OnClickBuyButton(int index)
     {
+        if (towerSpawner.isBuyTower || towerSpawner.isPickTower) return;
+        if (!player.PayCoin(int.Parse(ShopPriceText[index].text)))
+            return;
+
         towerSpawner.BuyTower(index);
+    }
+
+    public void OnClickEnhanceButton()
+    {
+        Tower tower = towerSpawner.curPickTower.GetComponent<Tower>();
+        if (tower.level + 1 == DB.towerEnhancePrice.Count) return;
+        if (!player.PayCoin(int.Parse(enhancePriceText.text))) return;
+
+        if (!tower.LevelUp()) return;
+
+        SetTowerStat(tower);
+        SetEnhanceInfo(tower);
+    }
+
+    public void OnClickSellButton()
+    {
+        player.GetCoin(int.Parse(sellPriceText.text));
+        Tower tower = towerSpawner.curPickTower.GetComponent<Tower>();
+        tower.DestroyTower();
     }
 
     public void OnClickStatExitButton()
     {
         statWindow.SetActive(false);
+        towerSpawner.SetPickTower(false, null);
         towerSpawner.OffPickAllTower();
     }
     #endregion

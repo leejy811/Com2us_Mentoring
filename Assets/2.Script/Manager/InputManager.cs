@@ -31,6 +31,7 @@ public class InputManager : MonoBehaviour
             }
             else if (hit.collider.tag == "Tower" && !towerSpawner.isPickTower)
             {
+                towerSpawner.SetPickTower(true, hit.transform.gameObject);
                 towerSpawner.OffPickAllTower();
                 hit.transform.GetComponent<Tower>().PickTower(true);
             }

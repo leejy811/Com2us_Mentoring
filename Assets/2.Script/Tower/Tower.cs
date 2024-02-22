@@ -15,6 +15,8 @@ public class Tower : MonoBehaviour
     protected Transform target;
     protected bool isSpawn;
 
+    protected DBManager dBManager;
+
     public SpriteRenderer radiusSprite;
     public Sprite[] towerSprite;
 
@@ -37,6 +39,11 @@ public class Tower : MonoBehaviour
 
         radiusSprite.gameObject.SetActive(false);
         gameObject.GetComponent<FollowMouse>().enabled = false;
+
+        dBManager = GameManager.instance.dbManager;
+
+        level = -1;
+        LevelUp();
 
         if (type != TowerType.Priest)
             StartCoroutine("AttackTarget");
@@ -111,5 +118,36 @@ public class Tower : MonoBehaviour
         {
             GameManager.instance.uiManager.SetStatWindow(this);
         }
+    }
+
+    public bool LevelUp()
+    {
+        if (level >= 0)
+        {
+            float ranProb = Random.Range(0.0f, 100.0f);
+            float successProb = dBManager.towerSuccessProb[level];
+            float destroyProb = dBManager.towerDestroyProb[level];
+            if (ranProb < 100 - successProb)
+            {
+                if (ranProb < destroyProb)
+                {
+                    DestroyTower();
+                }
+                return false;
+            }
+        }
+
+        int index = (int)type;
+        level++;
+        damage = dBManager.towerAttackDamage[index][level];
+        attackSpeed = dBManager.towerAttackSpeed[index][level];
+        attackRange = dBManager.towerAttackRange[index][level];
+        return true;
+    }
+
+    public void DestroyTower()
+    {
+        gameObject.SetActive(false);
+        GameManager.instance.uiManager.statWindow.SetActive(false);
     }
 }

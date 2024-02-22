@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 812ccf7128fe38043938b90b8dae2d7a, type: 3}
+  m_Name: DataBase
+  m_EditorClassIdentifier: 
+  TowerEntities:
+  - EnhancePrice: 100
+    SellPrice: 10
+    SuccessProb: 100
+    DestroyProb: 0
+  - EnhancePrice: 200
+    SellPrice: 20
+    SuccessProb: 95
+    DestroyProb: 2
+  - EnhancePrice: 300
+    SellPrice: 30
+    SuccessProb: 90
+    DestroyProb: 4
+  - EnhancePrice: 400
+    SellPrice: 40
+    SuccessProb: 85
+    DestroyProb: 5
+  - EnhancePrice: 500
+    SellPrice: 50
+    SuccessProb: 80
+    DestroyProb: 6
+  - EnhancePrice: 600
+    SellPrice: 60
+    SuccessProb: 75
+    DestroyProb: 8
+  - EnhancePrice: 700
+    SellPrice: 70
+    SuccessProb: 70
+    DestroyProb: 10
+  - EnhancePrice: 800
+    SellPrice: 80
+    SuccessProb: 65
+    DestroyProb: 12
+  - EnhancePrice: 900
+    SellPrice: 90
+    SuccessProb: 60
+    DestroyProb: 14
+  - EnhancePrice: 1000
+    SellPrice: 100
+    SuccessProb: 55
+    DestroyProb: 16
+  - EnhancePrice: 1100
+    SellPrice: 110
+    SuccessProb: 50
+    DestroyProb: 18
+  - EnhancePrice: 1200
+    SellPrice: 120
+    SuccessProb: 45
+    DestroyProb: 20
+  - EnhancePrice: 1300
+    SellPrice: 130
+    SuccessProb: 40
+    DestroyProb: 22
+  - EnhancePrice: 1400
+    SellPrice: 140
+    SuccessProb: 35
+    DestroyProb: 24
+  - EnhancePrice: 1500
+    SellPrice: 150
+    SuccessProb: 30
+    DestroyProb: 26
+  - EnhancePrice: 1600
+    SellPrice: 160
+    SuccessProb: 25
+    DestroyProb: 28
+  - EnhancePrice: 1700
+    SellPrice: 170
+    SuccessProb: 20
+    DestroyProb: 30
+  - EnhancePrice: 1800
+    SellPrice: 180
+    SuccessProb: 15
+    DestroyProb: 35
+  - EnhancePrice: 1900
+    SellPrice: 190
+    SuccessProb: 10
+    DestroyProb: 40
+  - EnhancePrice: 2000
+    SellPrice: 200
+    SuccessProb: 5
+    DestroyProb: 50
+  ArcherEntities:
+  - Damage: 1
+    Speed: 1
+    Range: 5
+  - Damage: 2
+    Speed: 0.95
+    Range: 5
+  - Damage: 3
+    Speed: 0.9
+    Range: 5
+  - Damage: 4
+    Speed: 0.85
+    Range: 5
+  - Damage: 5
+    Speed: 0.8
+    Range: 5
+  - Damage: 6
+    Speed: 0.75
+    Range: 6
+  - Damage: 7
+    Speed: 0.7
+    Range: 6
+  - Damage: 8
+    Speed: 0.65
+    Range: 6
+  - Damage: 9
+    Speed: 0.6
+    Range: 6
+  - Damage: 10
+    Speed: 0.55
+    Range: 6
+  - Damage: 11
+    Speed: 0.5
+    Range: 7
+  - Damage: 12
+    Speed: 0.45
+    Range: 7
+  - Damage: 13
+    Speed: 0.4
+    Range: 7
+  - Damage: 14
+    Speed: 0.35
+    Range: 7
+  - Damage: 15
+    Speed: 0.3
+    Range: 7
+  - Damage: 16
+    Speed: 0.25
+    Range: 8
+  - Damage: 17
+    Speed: 0.2
+    Range: 8
+  - Damage: 18
+    Speed: 0.15
+    Range: 8
+  - Damage: 19
+    Speed: 0.1
+    Range: 8
+  - Damage: 20
+    Speed: 0.05
+    Range: 9
+  WizardEntities:
+  - Damage: 1
+    Speed: 1
+    Range: 5
+  - Damage: 2
+    Speed: 0.95
+    Range: 5
+  - Damage: 3
+    Speed: 0.9
+    Range: 5
+  - Damage: 4
+    Speed: 0.85
+    Range: 5
+  - Damage: 5
+    Speed: 0.8
+    Range: 5
+  - Damage: 6
+    Speed: 0.75
+    Range: 6
+  - Damage: 7
+    Speed: 0.7
+    Range: 6
+  - Damage: 8
+    Speed: 0.65
+    Range: 6
+  - Damage: 9
+    Speed: 0.6
+    Range: 6
+  - Damage: 10
+    Speed: 0.55
+    Range: 6
+  - Damage: 11
+    Speed: 0.5
+    Range: 7
+  - Damage: 12
+    Speed: 0.45
+    Range: 7
+  - Damage: 13
+    Speed: 0.4
+    Range: 7
+  - Damage: 14
+    Speed: 0.35
+    Range: 7
+  - Damage: 15
+    Speed: 0.3
+    Range: 7
+  - Damage: 16
+    Speed: 0.25
+    Range: 8
+  - Damage: 17
+    Speed: 0.2
+    Range: 8
+  - Damage: 18
+    Speed: 0.15
+    Range: 8
+  - Damage: 19
+    Speed: 0.1
+    Range: 8
+  - Damage: 20
+    Speed: 0.05
+    Range: 9
+  KnightEntities:
+  - Damage: 1
+    Speed: 1
+    Range: 5
+  - Damage: 2
+    Speed: 0.95
+    Range: 5
+  - Damage: 3
+    Speed: 0.9
+    Range: 5
+  - Damage: 4
+    Speed: 0.85
+    Range: 5
+  - Damage: 5
+    Speed: 0.8
+    Range: 5
+  - Damage: 6
+    Speed: 0.75
+    Range: 6
+  - Damage: 7
+    Speed: 0.7
+    Range: 6
+  - Damage: 8
+    Speed: 0.65
+    Range: 6
+  - Damage: 9
+    Speed: 0.6
+    Range: 6
+  - Damage: 10
+    Speed: 0.55
+    Range: 6
+  - Damage: 11
+    Speed: 0.5
+    Range: 7
+  - Damage: 12
+    Speed: 0.45
+    Range: 7
+  - Damage: 13
+    Speed: 0.4
+    Range: 7
+  - Damage: 14
+    Speed: 0.35
+    Range: 7
+  - Damage: 15
+    Speed: 0.3
+    Range: 7
+  - Damage: 16
+    Speed: 0.25
+    Range: 8
+  - Damage: 17
+    Speed: 0.2
+    Range: 8
+  - Damage: 18
+    Speed: 0.15
+    Range: 8
+  - Damage: 19
+    Speed: 0.1
+    Range: 8
+  - Damage: 20
+    Speed: 0.05
+    Range: 9
+  PriestEntities:
+  - Damage: 1
+    Speed: 1
+    Range: 5
+  - Damage: 2
+    Speed: 0.95
+    Range: 5
+  - Damage: 3
+    Speed: 0.9
+    Range: 5
+  - Damage: 4
+    Speed: 0.85
+    Range: 5
+  - Damage: 5
+    Speed: 0.8
+    Range: 5
+  - Damage: 6
+    Speed: 0.75
+    Range: 6
+  - Damage: 7
+    Speed: 0.7
+    Range: 6
+  - Damage: 8
+    Speed: 0.65
+    Range: 6
+  - Damage: 9
+    Speed: 0.6
+    Range: 6
+  - Damage: 10
+    Speed: 0.55
+    Range: 6
+  - Damage: 11
+    Speed: 0.5
+    Range: 7
+  - Damage: 12
+    Speed: 0.45
+    Range: 7
+  - Damage: 13
+    Speed: 0.4
+    Range: 7
+  - Damage: 14
+    Speed: 0.35
+    Range: 7
+  - Damage: 15
+    Speed: 0.3
+    Range: 7
+  - Damage: 16
+    Speed: 0.25
+    Range: 8
+  - Damage: 17
+    Speed: 0.2
+    Range: 8
+  - Damage: 18
+    Speed: 0.15
+    Range: 8
+  - Damage: 19
+    Speed: 0.1
+    Range: 8
+  - Damage: 20
+    Speed: 0.05
+    Range: 9
